@@ -1,1 +1,1 @@
-<h1>Projeto: Site Institucional "Casa Acolhedora Irmã Antônia"</h1>
+<h1 align="center">Site Institucional: Casa Acolhedora Irmã Antônia</h1>
