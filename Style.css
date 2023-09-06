@@ -92,13 +92,22 @@ nav h3:hover {
     justify-content: space-evenly;
 }
 
-/*celular*/
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .menu_container {
+        min-width: 80%;
+        width: 90%;
+        top: 10em;
+        right: 1em;
+    }
+}
 
-/*Tablet*/
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    #logo {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
 
-/*notebook*/
 @media screen and (max-width: 992px) {
     #menu_hamburger {
         display: flex;
@@ -113,4 +122,9 @@ nav h3:hover {
     nav {
         grid-column-start: 3;
     }
+
+    .menu_container {
+        min-width: 40%;
+    }
+
 }
