@@ -4,22 +4,9 @@
 // const firstCardWidth = carousel.querySelector(".card").offsetWidth;
 // const carouselChildrens = [...carousel.children];
 
-// const nav = document.getElementsByTagName("nav");
 const btn = document.getElementById('menu_hamburger');
 const close = document.getElementById('close_menu');
 const menu = document.querySelector(".menu_container");
-
-const btn_hamburger = () => {
-    menu.style.display = 'flex';
-    btn.style.display = 'none';
-    close.style.display = 'flex';
-}
-
-const close_btn_hamburger = () => {
-    btn.style.display = 'flex';
-    close.style.display = 'none';
-    menu.style.display = 'none';
-}
 
 // let isDragging = false, startX, startScrollLeft, timeoutId;
 
@@ -97,3 +84,15 @@ const close_btn_hamburger = () => {
 //     }
 
 // }
+
+const btn_hamburger = () => {
+    menu.style.display = 'flex';
+    btn.style.display = 'none';
+    close.style.display = 'flex';
+}
+
+const close_btn_hamburger = () => {
+    btn.style.display = 'flex';
+    close.style.display = 'none';
+    menu.style.display = 'none';
+}
